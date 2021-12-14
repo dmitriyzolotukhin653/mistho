@@ -1,0 +1,17 @@
+.container {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, minmax(250px, max-content));
+  gap: 20px;
+  grid-template-areas:
+    'first first .'
+    'first first .'
+    '. . .';
+}
+
+.MuiTypography-root {
+  text-align: left;
+}
+

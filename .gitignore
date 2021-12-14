@@ -1,0 +1,4 @@
+/economic-backend/node_modules/
+/economic-frontend/node_modules/
+/.idea/
+/economic-backend/.env
